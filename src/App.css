@@ -1,0 +1,44 @@
+/* I use basic color schemes and css here to so I can see how the various elements display. 
+I would NOT submit this as a final color scheme! */
+.App {
+	text-align: center;
+	color: rgb(47, 39, 155);
+	background-color: #205bcf;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.card {
+  border: 1px solid #3513c9;
+  width: 40rem;
+  align-self: center;
+  background-color: #0d0d0e;
+  text-decoration: none;
+}
+
+h1 {
+  text-transform: inherit;
+  border: 1px solid black;
+  justify-content: center;
+}
+
+ul, li {
+  align-items: left;
+}
+
+.modal {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(62, 16, 231, 0.5);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
